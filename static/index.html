@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascirpt</title>
+    <link rel="stylesheet" href="C:\Users\Nai\Documents\javaScript\static\CSS\style.css">
+</head>
+    <div class="container_1">
+        <h2>Challenge 1: Your age in days</h2>
+        <div class="flex_box-container">
+            <div><button id="click_me" onclick="ageInDays()">Click me</button></div>
+        
+            <div><button id="reset" onclick="reset()">Reset</button></div>
+        </div>
+            
+        <div class="flex_box-container">
+            <div id="flex_box_result"></div>
+        </div>
+    </div>
+
+    <div class="Container_2">
+        <h2>Challenge 2: GIF Generator</h2>
+        <button id="generate_cat" onclick="generateCat()">Generate GIF</button>
+        <div class="flex_box_container2" id="flex_box_gen">
+           
+        </div>
+    </div>
+
+    <div class="container_3">
+        <h2>Challenge 3 : Rock, Paper, Scissors</h2>
+        <div class="flex_box_container3" id="flex_box_RPS">
+            <div><img id="rock" src="C:\Users\Nai\Documents\javaScript\static\images\rock.jpg" height=150 width=150  onClick="rpsGame(this)"alt=""></div>
+            <div><img id="paper" src="C:\Users\Nai\Documents\javaScript\static\images\paper.jpg" height=150 width=150 onCLick="rpsGame(this)" alt=""></div>
+            <div><img id="scissors" src="C:\Users\Nai\Documents\javaScript\static\images\scissors.png" height=150 width=150 onCLick="rpsGame(this)" alt=""></div>
+        </div>
+    </div>
+
+    <div class="container_4">
+        <h2 id="change_Color_container_4">Challenge 4: Change the Color of all Buttons</h2>
+        <div class="flex_box_Buttons_color">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="reset">Reset</option>
+                </select>
+            </form>
+
+            <button id="btn_blue">Wee!</button>
+            <button id="btn_red">Yahoo</button>
+            <button id="btn_yellow">Google</button>
+            <button id="btn_green">Facebook</button>
+        </div>
+    </div>
+
+    <div class="container_5">
+        <h2>Challenge 5: Blackjack</h2>
+        <h3><span id="blackjack_result">Lets Play</span></h3>
+        <div class="flex_box_row1">
+            <div id="your_box"><h3>You: <span id="your_result">0</span></h3></div>
+            <div id="dealer_box"><h3>Dealer: <span id="dealer_result">0</span></h3></div>
+        </div>
+
+        <div class="flex_box_row2">
+            <div>
+                <button id="btn_hit">Hit</button>
+                <button id="btn_stand">Stand</button>
+                <button id="btn_deal">Deal</button>
+            </div>
+        </div>
+
+        <div class="flex_box_row3">
+            <table>
+                <tr>
+                    <th>Win</th>
+                    <th>Draw</th>
+                    <th>Lose</th>
+                </tr>
+
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="draws">0</span></td>
+                    <td><span id="losses">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="static/JS/script.js"></script>
+</body>
+</html>

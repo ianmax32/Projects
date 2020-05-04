@@ -1,0 +1,127 @@
+#click_me{
+    background-color: aqua;
+    padding: 10px;
+}
+
+#reset{
+    background-color: red;
+    padding: 10px;
+
+}
+
+#generate_cat{
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.flex_box-container , .flex_box_container2 , .flex_box_container3, .flex_box_Buttons_color, .flex_box_row1, .flex_box_row2, .flex_box_row3{
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex_box_row1 , .flex_box_row2{
+    background: url("C:/Users/Nai/Documents/javaScript/static/images/blackjack background.jpg");
+    color:white;
+}
+
+.flex_box_row2 button{
+    border:1px solid black
+}
+
+.flex_box_row2 div{
+    border: 1px solid black;
+    padding:10px
+}
+
+.flex_box_row1 div{
+    border: 1px solid black;
+    height: 350px;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+.flex_box_row1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex_box-container div{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.container_1 , .container_2, .container_3, .container_4, .container_5{
+    border:1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.flex_box_container2 div{
+    padding: 10px;
+    display: flex;
+    align-items:center;
+    border: 1px solid blue;
+}
+
+
+.flex_box_container2 img{
+    margin: 10px;
+    box-shadow:0px 10px 50px rgba(0,0,0,0.7);
+}
+
+.flex_box_container3 img:hover{
+    box-shadow:0px 10px 50px blue;
+} 
+
+#btn_blue{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+#btn_red{
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
+
+#btn_yellow{
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+}
+
+#btn_green{
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+#btn_hit{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+#btn_stand{
+    background-color: yellow;
+    padding: 10px;
+    color: black;
+}
+
+#btn_deal{
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+
+table ,th,td{
+    border: 1px solid black;
+    padding: 1px;
+}
